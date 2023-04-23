@@ -7,3 +7,4 @@
 # Next I visualize my data use "%matplotlib inline", using "df0" and "df1" and column "sepal length " and "sepal width"
 # Then I visualize "df0" and "df1" but with column "petal length" and "petal width"
 # I import "train_test_split" and prepare my "X" and "y" "X" will be my "df" without column "target" and "flower_name"
+# And "y" will be my "df.target", now i can get "train" and "test" set using "train_test_split", I can also check length of my sets using "len"
