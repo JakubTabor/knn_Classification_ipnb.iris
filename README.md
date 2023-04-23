@@ -10,4 +10,4 @@
 # And "y" will be my "df.target", now i can get "train" and "test" set using "train_test_split", I can also check length of my sets using "len"
 # Then from "sklearn.neighbors" import "KNeighborsClassifier" and set parameter "n_neighbors" at (3), then train my model """knn.fit(X_train, y_train)"""
 # Iget my score "knn.score(X_train, y_train)" and prepare "y_pred" using "X_test" """y_pred = knn.predict(X_test)"""
-# Next from "sklearn.metrics" import "confusion_matrix" 
+# Next from "sklearn.metrics" import "confusion_matrix" and then I supplement my "confusion_matrix" with "y_test" and y_pred
