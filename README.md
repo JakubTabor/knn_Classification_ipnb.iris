@@ -11,3 +11,4 @@
 # Then from "sklearn.neighbors" import "KNeighborsClassifier" and set parameter "n_neighbors" at (3), then train my model """knn.fit(X_train, y_train)"""
 # Iget my score "knn.score(X_train, y_train)" and prepare "y_pred" using "X_test" """y_pred = knn.predict(X_test)"""
 # Next from "sklearn.metrics" import "confusion_matrix" and then I supplement my "confusion_matrix" with "y_test" and y_pred
+# Then I import "seaborn" and supplement it with my "confusion_matrix"
