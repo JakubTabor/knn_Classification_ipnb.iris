@@ -6,3 +6,4 @@
 # I create (3) different "df" with my "flower_name" (form 0 to 50, from 50 to 100, form 100 to 150) 
 # Next I visualize my data use "%matplotlib inline", using "df0" and "df1" and column "sepal length " and "sepal width"
 # Then I visualize "df0" and "df1" but with column "petal length" and "petal width"
+# I import "train_test_split" and prepare my "X" and "y" "X" will be my "df" without column "target" and "flower_name"
