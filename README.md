@@ -8,3 +8,4 @@
 # Then I visualize "df0" and "df1" but with column "petal length" and "petal width"
 # I import "train_test_split" and prepare my "X" and "y" "X" will be my "df" without column "target" and "flower_name"
 # And "y" will be my "df.target", now i can get "train" and "test" set using "train_test_split", I can also check length of my sets using "len"
+# Then from "sklearn.neighbors" import "KNeighborsClassifier" and set parameter "n_neighbors" at (3), then train my model """knn.fit(X_train, y_train)"""
